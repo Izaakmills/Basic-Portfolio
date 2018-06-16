@@ -49,6 +49,12 @@ img{
     float:left;
     height: 150px;
     object-fit:cover;
+    position:relative;
+}
+imgbox{
+    width:100%;
+    position: absolute;
+    background-color:#4aaaa5;
 }
 p{
     margin:0;
@@ -67,7 +73,6 @@ h2{
     padding-top:10px;
     font-size:26px;
     color:#4aaaa5;
-    padding:12px;
 }
 .sect1-content{
     width:86%;
@@ -86,6 +91,11 @@ h2{
 }
 input, textarea{
     width:100%;
+}
+button{
+    width:100px;
+    height:30px;
+    margin-left:30px;
 }
 footer{
     width:100%;
@@ -117,7 +127,7 @@ footer{
     height:150px;
   }
   textarea{
-      width:60%;
+      width:100%;
       margin-right:auto;
       margin-left:auto;
   }
